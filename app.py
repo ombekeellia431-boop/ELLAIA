@@ -26,6 +26,8 @@ def generate_simple_melody(num_notes=8, min_pitch=60, max_pitch=72, duration=0.5
         if lyric_words and i < len(lyric_words):
             n.addLyric(lyric_words[i])
         elif lyric_words and i >= len(lyric_words):
+
+            
             n.addLyric(lyric_words[i % len(lyric_words)])
 
         s.append(n)
