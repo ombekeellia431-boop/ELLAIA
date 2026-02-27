@@ -25,7 +25,14 @@ def generate_simple_melody(num_notes=8, min_pitch=60, max_pitch=72, duration=0.5
 
         if lyric_words and i < len(lyric_words):
             n.addLyric(lyric_words[i])
-        elif lyric_words and i >= len(lyric_words):
+        elif lyric_words and i >= len(objects = ["night", "day", "song", "love", "hope", "light", "peace"]
+
+# --- Section Clonage de TA voix ---
+st.write("### 🎤 Clonage Vocal Personnel")
+if st.button("Lancer le clonage de ma voix", key="bouton_clonage_perso"):
+    # Attention aux 4 espaces de décalage au début de ces deux lignes
+    audio_path = generate_speech_from_lyrics("Ceci est un test de ma propre voix clonée")
+    st.audio(audio_path)
 
             
             n.addLyric(lyric_words[i % len(lyric_words)])
