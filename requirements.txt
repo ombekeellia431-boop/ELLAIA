@@ -3,5 +3,4 @@ music21
 gTTS
 moviepy
 pydub
-streamlit-audio-recorder
 ffmpeg-python
