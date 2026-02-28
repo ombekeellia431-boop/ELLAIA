@@ -1,3 +1,7 @@
 streamlit
 music21
 gTTS
+moviepy
+pydub
+st-audiorec
+ffmpeg-python
